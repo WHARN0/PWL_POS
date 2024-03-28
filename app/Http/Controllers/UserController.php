@@ -160,4 +160,12 @@ class UserController extends Controller
 
         return redirect('/user');
     }
+    public function formUser()
+    {
+        return view('user.formUser');
+    }
+    public function formLevel()
+    {
+        return view('user.formLevel');
+    }
 }
